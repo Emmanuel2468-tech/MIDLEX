@@ -93,8 +93,8 @@ export class AuthService {
     // Set expiry (10 minutes)
     const expiresAt = new Date();
     expiresAt.setMinutes(expiresAt.getMinutes() + 5);
-
-    // Save OTP
+    
+    // Save OTP Correctly
     const otp = this.otpRepository.create({
       code: otpCode,
       userId: user.id,

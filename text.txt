@@ -3,6 +3,6 @@ Your swagger docs url is http://localhost:3000/api
 
 git init
 git add .
-git commit -m "Authentication has been set up"
-git remote add origin https://github.com/Emmanuel2468-tech/MIDLEX.git
+git commit -m "Update a comment in the service page"
 git push -u origin master
+
